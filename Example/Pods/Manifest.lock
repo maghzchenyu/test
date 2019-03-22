@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - test (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - test (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  test: ff7079a8fe8c61818650ec1a20e1564a32824419
+
+PODFILE CHECKSUM: f03c897dc36682b674f085d35a88884804f28666
+
+COCOAPODS: 1.5.3
